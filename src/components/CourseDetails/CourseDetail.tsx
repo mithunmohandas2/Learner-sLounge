@@ -42,7 +42,8 @@ const CourseDetailCard = () => {
             7. Budgeting, Forecasting, exp management <br/>
             8. Cash flow & and fund flow. <br/>
             9. Payroll management <br/>
-            10. Accounting software (Tally, Zoho, Excell, Quick books)
+            10. Accounting software  <br />
+            (Tally, Zoho, Excell, Quick books)
           </h5>
 
 
