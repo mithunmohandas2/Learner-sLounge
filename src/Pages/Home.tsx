@@ -7,14 +7,6 @@ function Home() {
 
       <Header />
       <Main />
-
-      {/* <h1>Banner</h1>
-      <h1>Courses</h1>
-      <h1>About us</h1>
-      <h1>Testimonials</h1>
-      <h1>Contact us</h1> */}
-      
-
       <Waves />
     </div>
   )
