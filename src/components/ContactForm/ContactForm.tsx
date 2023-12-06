@@ -28,8 +28,8 @@ function ContactForm() {
                 <button className='bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{width:25}} src="https://cdn-icons-png.flaticon.com/512/888/888853.png" alt="Email" /> <h5>mail.learnerslounge@gmail.com</h5></button>
             </a>
 
-            <a href="tel:+919846232252" target='_blank'>
-                <button className='sm:w-fit bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{width:25}} src="https://icon-library.com/images/call-icon-android/call-icon-android-6.jpg" alt="phone" /> <h5>+91 - 9846232252</h5></button>
+            <a href="tel:+919188199166" target='_blank'>
+                <button className='sm:w-fit bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{width:25}} src="https://icon-library.com/images/call-icon-android/call-icon-android-6.jpg" alt="phone" /> <h5>+91 - 9188 199 166  |  8281 199 122</h5></button>
             </a>
 
             <div className="container">

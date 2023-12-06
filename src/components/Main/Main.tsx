@@ -57,7 +57,7 @@ function Main() {
                 <hr className="w-1/2 mx-auto my-5" />
 
                 <p className='text-center'>Copyright © Learner's Lounge | All Rights Reserved</p>
-                <a href="https://wa.me/9846232252" target="_blank" className="absolute z-20 mt-10" >
+                <a href="https://wa.me/9188199166" target="_blank" className="absolute z-20 mt-10" >
                     <img style={{width:80}} src="https://cliply.co/wp-content/uploads/2021/08/372108180_WHATSAPP_ICON_400.gif" alt="Whatsapp" />
                 </a>
             </section>
