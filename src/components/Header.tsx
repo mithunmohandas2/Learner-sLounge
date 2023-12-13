@@ -8,9 +8,11 @@ function Header() {
         // open the menu in mobile view
         setIsMenuOpen(!isMenuOpen)
     }
+    // const bg = "#131a20"
+    const bg = "#080a05"
 
     return (
-        <header className="sticky top-0 z-20 " style={{backgroundColor:"#131a20"}}>
+        <header className="sticky top-0 z-20 " style={{backgroundColor:bg}}>
 
             <section className="max-w-4xl ms-4 p-4 flex justify-between items-center">
                 <a href="#banner" onClick={() => setIsMenuOpen(false)}>

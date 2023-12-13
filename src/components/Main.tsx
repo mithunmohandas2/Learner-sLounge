@@ -3,7 +3,7 @@ import CourseDetailCard from './CourseDetails/CourseDetail'
 function Main() {
 
     const backgroundImageStyle = {
-        backgroundImage: `url('../../public/images/bg.jpg')`,
+        backgroundImage: `url('https://images.unsplash.com/photo-1634549709262-508c47d4c229?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmxhY2slMjBnb2xkfGVufDB8fDB8fHww')`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
@@ -11,15 +11,13 @@ function Main() {
     };
     return (
         <>
-            {/* <Banner /> */}
-
             <div className="container-fluid" style={backgroundImageStyle}>
 
                 <div className="max-w-4xl mx-auto">
                     <section id="banner" className="flex flex-col-reverse justify-center sm:flex-row p-6 pb-0 items-center gap-8 mb-12 scroll-mt-20">
                         <div className="sm:w-1/2">
                             <h2 className="max-w-md text-3xl sm:text-4xl font-bold text-center sm:text-left text-white hover:opacity-80">
-                                Gateway to Excellence
+                                Gateway to <span className='text-golden'>Excellence</span> 
                             </h2>
                             <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-white">
                                 "Empowering Futures, Nurturing Skills: Your Gateway to Practical Excellence"
@@ -58,7 +56,7 @@ function Main() {
 
                 <section id="contact" className="p-6 my-12 bg-white container-fluid scroll-mt-20">
                     <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6 text-slate-900">
-                        <span className='lineEffect'>Contact us</span>
+                        <span className='lineEffect text-amber-900'>Contact us</span>
                     </h2>
 
                     <ContactForm />

@@ -5,7 +5,7 @@ body {
   .footer-waves-body {
     position: relative;
     text-align: center;
-    background: linear-gradient(60deg, rgb(20, 2, 90) 0%, rgb(4, 56, 63) 100%);
+    background: linear-gradient(60deg, #773b0f 0%, rgb(100, 2, 2) 100%);
     padding-top: 4rem;
     transform: rotate(180deg);
   }
