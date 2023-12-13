@@ -29,7 +29,7 @@ function ContactForm() {
             </a>
 
             <a href="tel:+919188199166" target='_blank'>
-                <button className='sm:w-fit bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{width:25}} src="https://assets.stickpng.com/images/5a4525bd546ddca7e1fcbc83.png" alt="phone" /> <h5>+91 - 9188 199 166  |  8281 199 122</h5></button>
+                <button className='sm:w-fit bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{width:25}} src="https://icon-library.com/images/red-phone-icon-png/red-phone-icon-png-21.jpg" alt="phone" /> <h5>+91 - 9188 199 166  |  8281 199 122</h5></button>
             </a>
 
             <div className="container">
