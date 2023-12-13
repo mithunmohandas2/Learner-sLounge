@@ -1,4 +1,3 @@
-import './Header.css'
 import { useState } from 'react'
 
 function Header() {
@@ -11,26 +10,26 @@ function Header() {
     }
 
     return (
-        <header className="bg-slate-50 text-black sticky top-0 z-10">
+        <header className="sticky top-0 z-20 " style={{backgroundColor:"#131a20"}}>
 
             <section className="max-w-4xl ms-4 p-4 flex justify-between items-center">
-                <a href="#banner" onClick={()=>setIsMenuOpen(false)}>
+                <a href="#banner" onClick={() => setIsMenuOpen(false)}>
                     <div className="flex">
                         <img style={{ width: 35 }} src="/images/LL-Logo.png" alt="Logo" />
-                        <span className="text-3xl font-medium ms-2  text-cyan-600">Learner's Lounge</span>
+                        <span className="text-3xl font-medium ms-2  text-golden">Learner's Lounge</span>
                     </div>
                 </a>
                 <div>
                     {/* Hamburger icon for mobile */}
-                    <button id="mobileOpenButton" className="text-3xl sm:hidden focus:outline-none  text-cyan-600" onClick={toggleMenu}>
+                    <button id="mobileOpenButton" className="text-3xl sm:hidden focus:outline-none text-golden" onClick={toggleMenu}>
                         &#9776;
                     </button>
 
                     {/* expanded Nav for web */}
                     <nav className="hidden sm:block space-x-12 text-xl" aria-label="main">
-                        <a href="#about" className="hover:opacity-70 lineEffect">About</a>
-                        <a href="#courses" className="hover:opacity-70 lineEffect">Courses</a>
-                        <a href="#contact" className="hover:opacity-70 lineEffect">Contact</a>
+                        <a href="#about" className="hover:opacity-70 text-golden lineEffect">About</a>
+                        <a href="#courses" className="hover:opacity-70 text-golden lineEffect">Courses</a>
+                        <a href="#contact" className="hover:opacity-70 text-golden lineEffect">Contact</a>
                     </nav>
 
                 </div>
@@ -41,15 +40,15 @@ function Header() {
                 {isMenuOpen && <div>
                     {/* expanded Nav for web */}
                     <nav aria-label="mobile" className=''>
-                        <ul className='my-3 '>
+                        <ul className='py-3 '>
                             <li className='py-3 text-center' >
-                                <a href="#about" className="hover:opacity-70 lineEffect" onClick={toggleMenu}>About</a> 
+                                <a href="#about" className="hover:opacity-70 lineEffect text-golden" onClick={toggleMenu}>About</a>
                             </li>
                             <li className='py-3 text-center'>
-                                <a href="#courses" className="hover:opacity-70 lineEffect mx-auto my-3" onClick={toggleMenu}>Courses</a>
+                                <a href="#courses" className="hover:opacity-70 lineEffect text-golden mx-auto my-3" onClick={toggleMenu}>Courses</a>
                             </li>
                             <li className='py-3 text-center'>
-                                <a href="#contact" className="hover:opacity-70 lineEffect mx-auto my-3" onClick={toggleMenu}>Contact</a>
+                                <a href="#contact" className="hover:opacity-70 lineEffect text-golden mx-auto my-3" onClick={toggleMenu}>Contact</a>
                             </li>
                         </ul>
                     </nav>

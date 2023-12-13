@@ -11,27 +11,27 @@ const CourseDetailCard = () => {
   return (
     <div className={`max-w-md  mx-auto shadow-md rounded-md overflow-hidden ${isFlipped ? 'is-flipped' : ''}`}>
       {/* Front side of the card */}
-      <div className="card-front bg-white rounded-2xl shadow-md">
+      <div className="card-front bg-white rounded-2xl shadow-md ms-3">
         <img className="w-full h-64 object-cover object-center" src="/images/accounting.jpg" alt="Course" />
-        <div className="p-4">
+        <div className="p-7">
           <h2 className="text-xl font-semibold mb-2">Diploma in Practical Accounting</h2>
           <p>3 months online training program</p>
 
           <h2
             onClick={handleClick}
-            className=" text-blue-500 hover:underline mt-4 hover:text-blue-700 focus:outline-none focus:shadow-outline cursor-pointer">
-            View Course Details ▶️
+            className=" text-blue-500 hover:underline mt-4 hover:text-blue-700 focus:outline-none focus:shadow-outline cursor-pointer decoration-transparent">
+            View Course Details
           </h2>
         </div>
       </div>
 
       {/* Back side of the card */}
-      <div className="card-back bg-white rounded-2xl shadow-md">
-        <div className="p-4 ">
+      <div className="card-back bg-white rounded-2xl shadow-md ms-2">
+        <div className="p-5 ">
           {/* Content for the back side */}
           <h2 className="text-xl font-semibold m-3 px-4">Diploma in Practical Accounting</h2>
           <hr className='mb-5' />
-          <h5 className='mb-2'> The core topics we are offering are mentioned below: </h5>
+          <h5 className='mb-2'> Core topics we offer </h5>
           <h5 className="text-gray-600">
             1. Basic account - Theory Part. <br/>
             2. Practical business accounting <br/>
@@ -50,7 +50,7 @@ const CourseDetailCard = () => {
           <h2
             onClick={handleClick}
             className=" text-blue-500 hover:underline mt-4 hover:text-blue-700 focus:outline-none focus:shadow-outline cursor-pointer">
-            ◀  Back
+            Back
           </h2>
         </div>
       </div>
