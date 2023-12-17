@@ -14,33 +14,27 @@ function Main() {
             <div className="container-fluid" style={backgroundImageStyle}>
 
                 <div className="max-w-4xl mx-auto">
-                    <section id="banner" className="flex flex-col-reverse justify-center sm:flex-row p-6 pb-0 items-center gap-8 mb-12 scroll-mt-20">
+                    <section id="home" className="flex flex-col-reverse justify-center sm:flex-row p-6 pb-0 items-center gap-8 mb-12 scroll-mt-20">
                         <div className="sm:w-1/2">
-                            <h2 className="max-w-md text-3xl sm:text-4xl font-bold text-center sm:text-left text-white hover:opacity-80">
-                                Gateway to <span className='text-golden'>Excellence</span> 
+                            <p className="max-w-md text-3xl my-4 text-center sm:text-left text-white">
+                            Quest for a potential career in commerce?
+                            </p>
+                            <h2 className="max-w-md py-3 text-3xl sm:text-4xl font-bold text-center sm:text-left text-golden hover:opacity-80">
+                            Learn beyond the box!
                             </h2>
-                            <p className="max-w-md text-2xl mt-4 text-center sm:text-left text-white">
-                                "Empowering Futures, Nurturing Skills: Your Gateway to Practical Excellence"
-                            </p>
-                            <p className="max-w-md text-2xl mt-4 pb-6 text-center sm:text-left text-white">
-                                Learn at your convinience
-                            </p>
                         </div>
 
                         <img className="w-1/2 zoomEffect" src="/images/banner-no-bg.png" alt="Banner" />
 
                     </section>
 
-
                     <section id="about" className="py-6 my-12 bg-slate-600 rounded-2xl shadow-xl scroll-mt-20 bg-opacity-40">
                         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6 text-white hover:opacity-70">
                             About us
                         </h2>
                         <hr className="w-1/2 mx-auto" />
-                        <p className="text-1xl justify-content p-8 text-white">
-                            Learner's Lounge is an educational institution providing job-oriented courses in commerce We are providing various courses like Diploma in Practical Accounting & Taxation. We also provide practical training to all our students. Experienced faculties train the students with the latest accounting software and technologies.
-
-                            We started our journey with a vision to train the job-focused youth in India and make them employable at affordable fees. As the industry demands ‘skilled manpower’, we too, expanded our horizon to not just provide practical training to our students but also support them with placement at top companies. Mere theoretical knowledge is good for nothing; you should be practically adept as well. Each student reaching us leaves as a perfectly trained Professional ready to take up any Accounting-related job with confidence.
+                        <p className="text-1xl justify-content text-justify p-10 text-white">
+                        Learner's Lounge is an educational institution that offers commerce courses with a practical focus that bridges the divide between theory and application. We provide various courses like Diploma in Practical Accounting and Taxation, and also support all our students with practical training. Students are trained with the latest accounting software and technologies by experienced faculty members. We started our journey with a vision to train the career-focused youth in India and make them employable at affordable fees. As the industry demands skilled manpower, we have expanded our horizons to not just provide practical training to our students but also support them with placement at top companies. Each student reaching us leaves as a perfectly trained professional, ready to take on any accounting-related job with confidence.
                         </p>
 
                     </section>
@@ -54,20 +48,21 @@ function Main() {
                     </section>
                 </div>
 
-                <section id="contact" className="p-6 my-12 bg-white container-fluid scroll-mt-20">
+                <section id="contact" className="p-6 my-12 container-fluid scroll-mt-20 text-white">
                     <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6 text-slate-900">
-                        <span className='lineEffect text-amber-900'>Contact us</span>
+                        <span className='lineEffect text-white'>Contact us</span>
                     </h2>
 
                     <ContactForm />
 
-                    <hr className="w-1/2 mx-auto my-5" />
-
-                    <p className='text-center'>Copyright © Learner's Lounge</p>
-                    <p className='text-center'>All Rights Reserved</p> <br />
-                    <a href="https://wa.me/9188199166" target="_blank" className="absolute z-20 mt-10" >
+                   
+                    <a href="https://wa.me/9188199166" target="_blank" className="fixed bottom-20 right-0 z-30" >
                         <img style={{ width: 80 }} src="https://cliply.co/wp-content/uploads/2021/08/372108180_WHATSAPP_ICON_400.gif" alt="Whatsapp" />
                     </a>
+                </section>
+
+                <section style={{background: '#080b05'}}>
+                       ---
                 </section>
 
             </div>

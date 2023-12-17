@@ -10,7 +10,6 @@
   .card-front,
   .card-back {
     position: absolute;
-    background-image: red;
     min-height: 30em;
     /* width: 100%; */
     backface-visibility: hidden;

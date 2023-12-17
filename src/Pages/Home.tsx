@@ -1,4 +1,4 @@
-import Waves from "../components/Waves/Waves"
+import Footer from "../components/Footer/Footer"
 import Header from "../components/Header"
 import Main from "../components/Main"
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
 
       <Header />
       <Main />
-      <Waves />
+      <Footer />
     </div>
   )
 }

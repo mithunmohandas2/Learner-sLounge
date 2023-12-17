@@ -15,11 +15,9 @@ function Header() {
         <header className="sticky top-0 z-20 " style={{backgroundColor:bg}}>
 
             <section className="max-w-4xl ms-4 p-4 flex justify-between items-center">
-                <a href="#banner" onClick={() => setIsMenuOpen(false)}>
+                <a href="#home" onClick={() => setIsMenuOpen(false)}>
                     <div className="flex">
                         <img style={{ width: 125 }} src="/images/LogoLong.png" alt="Logo" />
-                        {/* <img style={{ width: 35 }} src="/images/LL-Logo.png" alt="Logo" />
-                        <span className="text-3xl font-medium ms-2  text-golden">Learner's Lounge</span> */}
                     </div>
                 </a>
                 <div>
