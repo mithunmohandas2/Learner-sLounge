@@ -9,10 +9,10 @@ function Header() {
         setIsMenuOpen(!isMenuOpen)
     }
     // const bg = "#131a20"
-    const bg = "#080a05"
+    // const bg = "#080a05"
 
     return (
-        <header className="sticky top-0 z-20 " style={{backgroundColor:bg}}>
+        <header className="sticky top-0 z-20 bg-black">
 
             <section className="max-w-4xl ms-4 p-4 flex justify-between items-center">
                 <a href="#home" onClick={() => setIsMenuOpen(false)}>
@@ -28,8 +28,8 @@ function Header() {
 
                     {/* expanded Nav for web */}
                     <nav className="hidden sm:block space-x-12 text-xl" aria-label="main">
-                        <a href="#about" className="hover:opacity-70 text-golden lineEffect">About</a>
                         <a href="#courses" className="hover:opacity-70 text-golden lineEffect">Courses</a>
+                        <a href="#about" className="hover:opacity-70 text-golden lineEffect">About</a>
                         <a href="#contact" className="hover:opacity-70 text-golden lineEffect">Contact</a>
                     </nav>
 
@@ -42,11 +42,11 @@ function Header() {
                     {/* expanded Nav for web */}
                     <nav aria-label="mobile" className=''>
                         <ul className='py-3 '>
-                            <li className='py-3 text-center' >
-                                <a href="#about" className="hover:opacity-70 lineEffect text-golden" onClick={toggleMenu}>About</a>
-                            </li>
                             <li className='py-3 text-center'>
                                 <a href="#courses" className="hover:opacity-70 lineEffect text-golden mx-auto my-3" onClick={toggleMenu}>Courses</a>
+                            </li>
+                            <li className='py-3 text-center' >
+                                <a href="#about" className="hover:opacity-70 lineEffect text-golden" onClick={toggleMenu}>About</a>
                             </li>
                             <li className='py-3 text-center'>
                                 <a href="#contact" className="hover:opacity-70 lineEffect text-golden mx-auto my-3" onClick={toggleMenu}>Contact</a>
