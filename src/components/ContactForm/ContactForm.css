@@ -1,0 +1,14 @@
+#mailText,
+#phoneText {
+    display: none;
+}
+
+#mailButton:hover #mailText,
+#phoneButton:hover #phoneText {
+    display: block;
+}
+
+#mailText {
+  /* max-width: 210px;  */
+  word-wrap: break-word;
+}

@@ -1,5 +1,6 @@
 import ContactForm from './ContactForm/ContactForm'
 import CourseData from './CourseData';
+import FounderData from './FounderData/FounderData';
 function Main() {
 
     const backgroundImageStyle = {
@@ -43,18 +44,23 @@ function Main() {
 
             <section id="courses" className="py-6 my-12 scroll-mt-16">
                 <h2 className="text-3xl sm:text-5xl font-bold text-center mb-6 text-golden hover:opacity-70">
-                    Courses
+                    #1 Diploma in Practical Accounting
                 </h2>
+                <p className="px-3 my-2 text-white text-center text-opacity-80">
+                    Basic Accounting - The foundational principles and concepts that underpin the accounting process <br />
+                    3-month online training program with classes via Zoom meet
+                </p>
                 <CourseData />
             </section>
 
-            <section id="about" className="py-6 my-12 scroll-mt-20">
+            <section id="about" className="py-6 my-4 scroll-mt-20">
                 <h2 className="text-3xl sm:text-5xl font-bold text-center mb-6 text-golden hover:opacity-70">
                     About Us
                 </h2>
                 <hr className="w-1/2 mx-auto" />
                 <p className="text-1xl sm:mx-9 sm:px-9 justify-content text-justify p-10 text-white">
                     Learner's Lounge is an educational institution that offers commerce courses with a practical focus that bridges the divide between theory and application. We provide various courses like Diploma in Practical Accounting and Taxation, and also support all our students with practical training. Students are trained with the latest accounting software and technologies by experienced faculty members. We started our journey with a vision to train the career-focused youth in India and make them employable at affordable fees. As the industry demands skilled manpower, we have expanded our horizons to not just provide practical training to our students but also support them with placement at top companies. Each student reaching us leaves as a perfectly trained professional, ready to take on any accounting-related job with confidence.
+                    <FounderData />
                 </p>
             </section>
 
@@ -65,9 +71,7 @@ function Main() {
                     Contact Us
                 </h2>
 
-
                 <ContactForm />
-
 
                 <a href="https://wa.me/9188199166" target="_blank" className="fixed bottom-20 right-0 z-30" >
                     <img style={{ width: 80 }} src="https://cliply.co/wp-content/uploads/2021/08/372108180_WHATSAPP_ICON_400.gif" alt="Whatsapp" />

@@ -1,25 +1,35 @@
 function CourseData() {
-    
+
     const backgroundImageStyle = {
-        backgroundImage: `url('../../public/images/course.jpg')`,
+        // backgroundImage: `url('../../public/images/course.jpg')`,
+        backgroundImage: `url('/images/course.jpg')`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundOpacity:40,
+        backgroundOpacity: 40,
     };
     return (
         <>
             <div className="px-2 py-7 md:px-6 md:py-12" style={backgroundImageStyle}>
-                <h1 className="px-3 text-3xl sm:text-4xl font-bold capitalize text-white lg:text-3xl">
+                {/* <h1 className="px-3 text-3xl sm:text-4xl font-bold capitalize text-white lg:text-3xl">
                     Diploma in Practical Accounting
                 </h1>
                 <p className="px-3 my-2 text-white text-opacity-80">
                     Basic Accounting - The foundational principles and concepts that underpin the accounting process <br />
                     3-month online training program
+                </p> */}
+                <h1 className="px-4 text-xl font-bold capitalize text-white lg:text-3xl">
+                    WHO IS THIS COURSE AIMED AT?
+                </h1>
+                <p className="px-4 my-2 text-white text-opacity-80">
+                    Working/non-working individuals who are: <br />
+                    ✦ Commerce graduates/postgraduates <br />
+                    ✦ Qualified: CA/CMA/ACCA <br />
+                    ✦ Semi-qualified: CA/CMA/ACCA
                 </p>
-                <hr />
+                {/* <hr /> */}
                 <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 xl:mt-12 xl:grid-cols-3 xl:gap-16">
-                   
+
                     <div className="space-y-3 p-8 bg-slate-600 bg-opacity-40 zoomEffect rounded-lg">
                         <span className="inline-block rounded-full bg-golden p-3 text-white">
                             <h1 className="px-2 font-bold text-black">1</h1>

@@ -1,3 +1,4 @@
+import "./ContactForm.css"
 function ContactForm() {
     return (
 
@@ -42,21 +43,34 @@ function ContactForm() {
                                 ></div>
                             </div>
                         </div>
-                        <div className="max-w-xl  mx-auto my-4 flex flex-col items-start sm:justify-center sm:gap-3">
+                        <div className="max-w-sm my-4 flex flex-row items-center">
 
                             <a href="mailto:mail.learnerslounge@gmail.com" target='_blank' className='m-3'>
-                                <button className='bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{ width: 25 }} src="https://cdn-icons-png.flaticon.com/512/888/888853.png" alt="Email" /> <h5>mail.learnerslounge@gmail.com</h5></button>
+                                <button id="mailButton" className='bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2'> <img style={{ width: 25 }} src="https://cdn-icons-png.flaticon.com/512/888/888853.png" alt="Email" />
+                                    <h5 id="mailText">mail.learnerslounge@gmail.com</h5>
+                                </button>
                             </a>
 
                             <a href="tel:+919188199166" target='_blank' className='m-3' >
-                                <button className='sm:w-fit bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{ width: 25 }} src="https://icon-library.com/images/red-phone-icon-png/red-phone-icon-png-21.jpg" alt="phone" /> <h5>+91 - 9188 199 166  |  8281 199 122</h5></button>
+                                <button id="phoneButton" className='sm:w-fit bg-slate-200 p-4 text-slate-900 rounded-2xl hover:bg-slate-300 flex gap-2 w-fit'> <img style={{ width: 25 }} src="https://icon-library.com/images/red-phone-icon-png/red-phone-icon-png-21.jpg" alt="phone" />
+                                    <h5 id="phoneText">+91 - 9188 199 166</h5>
+                                </button>
                             </a>
                         </div>
                     </div>
 
-                    address
+                    <div className="flex-row">
+                        <iframe className="item-center justify-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.184522525077!2d75.83155997378184!3d11.247832550324205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bbe50ea0b7d%3A0xc4e01eaa6234847e!2sHiLITE%20Business%20Park%2C%20Poovangal%2C%20Pantheeramkavu%2C%20Kerala%20673014!5e0!3m2!1sen!2sin!4v1703073850238!5m2!1sen!2sin" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.184522525077!2d75.83155997378184!3d11.247832550324205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bbe50ea0b7d%3A0xc4e01eaa6234847e!2sHiLITE%20Business%20Park%2C%20Poovangal%2C%20Pantheeramkavu%2C%20Kerala%20673014!5e0!3m2!1sen!2sin!4v1703073850238!5m2!1sen!2sin" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        <p className="text-white p-10 bg-gray-700 bg-opacity-50 rounded-xl my-3">
+                            <span className="font-bold"> Address :</span>  <br />
+                            LEARNERS LOUNGE, <br />
+                            HiLite Business Park,<br />
+                            Palazhi, Calicut - 673014 <br />
+                            Ph: +91 9188 199 166
+                        </p>
+
+                    </div>
 
                 </section>
             </div>
