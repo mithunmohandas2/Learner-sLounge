@@ -1,5 +1,3 @@
-import "./FounderData.css"
-
 function FounderData() {
     return (
         <>
@@ -50,7 +48,7 @@ function FounderData() {
                             className="relative flex h-[342px] w-full flex-col justify-end rounded-[10px] bg-red-300"
                             style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}
                         >
-                            <img src="/images/sooraj.png" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
+                            <img src="/images/soorajTS.jpg" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
                             <div className="absolute bottom-4 left-4">
                                 <h1 className="text-xl font-semibold text-white">Sooraj T S</h1>
                                 <h6 className="text-base text-white">MBA (Marketing)</h6>
@@ -62,7 +60,7 @@ function FounderData() {
 
                     <div className="zoomEffect flex flex-col items-center text-start">
                         <div
-                            className="relative flex h-[342px] w-full flex-col justify-end rounded-[10px] bg-red-300"
+                            className="relative flex h-[342px] w-full flex-col justify-end rounded-[10px] bg-golden"
                             style={{ backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: "no-repeat" }}
                         >
                             <img src="/images/shreeLakshmi.jpg" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
