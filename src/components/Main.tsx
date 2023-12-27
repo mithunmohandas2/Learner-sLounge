@@ -58,10 +58,10 @@ function Main() {
                     About Us
                 </h2>
                 <hr className="w-1/2 mx-auto" />
-                <p className="text-1xl sm:mx-9 sm:px-9 justify-content text-justify p-10 text-white">
+                <div className="text-1xl sm:mx-9 sm:px-9 justify-content text-justify p-10 text-white">
                     Learner's Lounge is an educational institution that offers commerce courses with a practical focus that bridges the divide between theory and application. We provide various courses like Diploma in Practical Accounting and Taxation, and also support all our students with practical training. Students are trained with the latest accounting software and technologies by experienced faculty members. We started our journey with a vision to train the career-focused youth in India and make them employable at affordable fees. As the industry demands skilled manpower, we have expanded our horizons to not just provide practical training to our students but also support them with placement at top companies. Each student reaching us leaves as a perfectly trained professional, ready to take on any accounting-related job with confidence.
                     <FounderData />
-                </p>
+                </div>
             </section>
 
 
