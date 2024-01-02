@@ -15,9 +15,9 @@ function Main() {
             <div className="container-fluid" style={backgroundImageStyle}>
 
                 <div className="max-w-4xl mx-auto">
-                    <section id="home" className="flex flex-col-reverse justify-center sm:flex-row p-6 pb-0 items-center gap-8 mb-12 scroll-mt-20">
+                    <section id="home" className="flex flex-col-reverse justify-center sm:flex-row p-6 pb-0 items-center sm:gap-8 mb-12 scroll-mt-20">
                         <div className="sm:w-1/2">
-                            <p className="max-w-md text-3xl my-4 text-center sm:text-left text-white">
+                            <p className="max-w-md text-3xl mb-4 text-center sm:text-left text-white">
                                 Step into a potential commerce career !
                             </p>
                             <h2 className="max-w-md py-3 text-3xl sm:text-4xl font-bold text-center sm:text-left text-golden hover:opacity-80">
@@ -28,7 +28,7 @@ function Main() {
                             </p>
                         </div>
 
-                        <img className="w-1/2 zoomEffect" src="/images/banner-no-bg.png" alt="Banner" />
+                        <img className="w-64 sm:w-1/2 zoomEffect mb-0 pb-0" src="/images/banner-no-bg.png" alt="Banner" />
 
                     </section>
                 </div>
