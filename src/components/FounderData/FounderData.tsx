@@ -68,7 +68,10 @@ function FounderData() {
                             <img src="/images/nithinSethu.jpg" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
                             <div className="absolute bottom-4 left-4">
                                 <h1 className="text-xl font-semibold text-white">Nithin Sethu K</h1>
-                                <h6 className="text-base text-white">B.Com, MBA</h6>
+                                <h1 className="text-md font-semibold text-white">Chief Executive Officer</h1>
+                                <h6 className="text-base text-white">B.Com, MBA</h6> 
+                                <hr className="opacity-40" />
+                                <p className="text-slate-200 opacity-50 text-sm bg-black px-14" >click to know more 👆🏻</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +86,10 @@ function FounderData() {
                             <img src="/images/aswin.jpg" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
                             <div className="absolute bottom-4 left-4">
                                 <h1 className="text-xl font-semibold text-white">Aswin G</h1>
+                                <h1 className="text-md font-semibold text-white">Chief Executive Officer</h1>
                                 <h6 className="text-base text-white">B.Com, PG Degree (Management)</h6>
+                                <hr className="opacity-40" />
+                                <p className="text-slate-200 opacity-50 text-sm bg-black px-14" >click to know more 👆🏻</p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +104,10 @@ function FounderData() {
                             <img src="/images/soorajTS.jpg" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
                             <div className="absolute bottom-4 left-4">
                                 <h1 className="text-xl font-semibold text-white">Sooraj T S</h1>
+                                <h1 className="text-md font-semibold text-white">Chief Executive Officer</h1>
                                 <h6 className="text-base text-white">MBA (Marketing)</h6>
+                                <hr className="opacity-40" />
+                                <p className="text-slate-200 opacity-50 text-sm bg-black px-14" >click to know more 👆🏻</p>
                             </div>
                         </div>
                     </div>
@@ -113,7 +122,10 @@ function FounderData() {
                             <img src="/images/shreeLakshmi.jpg" alt="team photo" className="z-0 h-full w-full rounded-[10px] object-cover" />
                             <div className="absolute bottom-4 left-4">
                                 <h1 className="text-xl font-semibold text-white">Sree Lakshmi C</h1>
+                                <h1 className="text-md font-semibold text-white">Managing Partner</h1>
                                 <h6 className="text-base text-white">B.Com (Finance), CMA (Final)</h6>
+                                <hr className="opacity-40" />
+                                <p className="text-slate-200 opacity-50 text-sm bg-black px-14" >click to know more 👆🏻</p>
                             </div>
                         </div>
                     </div>
@@ -143,7 +155,7 @@ function FounderData() {
                                     {UserData[userSelected].exp.map((experience, index) => (
                                         <div key={index} className="flex">
                                             <h1>✦</h1>
-                                         <p className="ms-3">{experience} </p>
+                                            <p className="ms-3">{experience} </p>
                                         </div>
                                     ))}
                                 </div>

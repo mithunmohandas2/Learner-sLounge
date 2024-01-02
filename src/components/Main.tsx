@@ -33,18 +33,11 @@ function Main() {
                     </section>
                 </div>
 
-                {/* <section id="courses" className="py-6 my-12 scroll-mt-20" style={{ height: 600 }}>
-                        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6  text-blue-800">
-                            <span className='hover:opacity-80 text-white'>Courses</span>
-                        </h2>
-                        <br />
-                        <CourseDetailCard />
-                    </section> */}
             </div>
 
             <section id="courses" className="py-6 my-12 scroll-mt-16">
                 <h2 className="text-3xl sm:text-5xl font-bold text-center mb-6 text-golden hover:opacity-70">
-                    #1 Diploma in Practical Accounting
+                    #1 Diploma in Practical Accounting & Taxation
                 </h2>
                 <p className="px-3 my-2 text-white text-center text-opacity-80">
                     Basic Accounting - The foundational principles and concepts that underpin the accounting process <br />
